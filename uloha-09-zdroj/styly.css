@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+header {
+	background-image: url('obrazky/logo.jpg');
+	background-repeat: no-repeat;
+	background-position: right top; 
+	background-color: #BD5E00;
+	height: 70px;
+}
+header h1 {
+	font-size: 2.5em;
+	color: #FAE8D6;
+	font-variant: small-caps;
+	margin: 0;
+}
+nav {
+	padding: 0.5%;
+	background-color: #bdbd00;
+}
+nav a {
+	color: #004700;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 1em;
+}
+nav a:hover {
+	color: #FFFFFF;
+	background-color: #BD5E00;
+}
+footer {
+	color: #004700;
+	background-color: #bdbd00;
+	text-align: right;
+}
+section, aside, footer {
+	padding: 1%;
+}
+section a {
+	color: #BD5E00;
+	font-weight: bold;
+}
+header h1 {
+	padding-left: 1%;
+}
+fieldset {
+ 	border: 2px solid #BD5E00;
+	margin: 10px 0;
+}
+legend {
+	color: #BD5E00;
+	font-weight: bold;
+}
+.chyba {
+	color: #FF0000;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 2px solid #BD5E00;
+	padding: 0.5em;
+}
+th {
+	background-color: #FAE8D6;
+}
